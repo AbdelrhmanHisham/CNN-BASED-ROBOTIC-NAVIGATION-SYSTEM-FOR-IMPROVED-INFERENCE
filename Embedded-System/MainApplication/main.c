@@ -1,12 +1,4 @@
 #include "Includes.h"
-#include "GPIO.h"
-#include "Ultrasonic.h"
-#include "Timer0.h"
-#include "TIMER.H"
-#include "UART.H"
-#include "ADC.H"
-#include "PWM.H"
-#include "I2C.H"
 
 
 U32 distance_1 = 0;
