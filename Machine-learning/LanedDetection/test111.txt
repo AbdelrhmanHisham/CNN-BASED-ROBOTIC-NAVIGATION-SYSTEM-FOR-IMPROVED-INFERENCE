@@ -1,0 +1,12 @@
+import cv2
+
+cap = cv2.VideoCapture("output2")
+
+while(True):
+    ret,frame = cap.read()
+    cv2.imshow("OUT",frame)
+    Key = cv2.waitKey(30) & 0xff
+    if Key == 27 :
+        break
+cap.release()
+cv2.destroyAllWindows()    
